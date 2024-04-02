@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Signup Form</title>
+  <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="form-title">S'inscrire</h1>
+    <p class="form-info">C'est rapide et facile.</p>
+    <form class="register-form" action="register.php" method="post">
+      <div class="name-inputs">
+        <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+        <input type="text" id="lastname" name="lastname" placeholder="Nom de famille" required>
+      </div>
+      <input type="text" id="email" name="email" placeholder="Numéro mobile ou e-mail" required>
+      <input type="password" id="password" name="password" placeholder="Nouveau mot de passe" required>
+      <div class="birthday">
+        <label for="birthday-day">Date de naissance ?</label>
+        <select id="birthday-day" name="birthday-day">
+          <option value="">Jour</option>
+          <option value="1">1</option>
+          <option value="31">31</option>
+        </select>
+        <select id="birthday-month" name="birthday-month">
+          <option value="">Mois</option>
+          <option value="1">Janvier</option>
+          <option value="12">Décembre</option>
+        </select>
+        <select id="birthday-year" name="birthday-year">
+          <option value="">Année</option>
+        </select>
+      </div>
+      <div class="gender">
+        <label>Genre</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Homme</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Femme</label>
+        <input type="radio" id="custom" name="gender" value="custom">
+        <label for="custom">Personnalisé</label>
+      </div>
+      <p class="info-text">Les personnes qui utilisent notre service ont pu importer vos coordonnées sur Facebook. En savoir plus.</p>
+      <div class="terms">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">J'accepte les <a href="#">Conditions générales</a>, la <a href="#">Politique de confidentialité</a> et la <a href="#">Politique d'utilisation des cookies</a>. Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</label>
+      </div>
+      <button type="submit">S'inscrire</button>
+    </form>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js"></script>
+</body>
+</html>

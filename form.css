@@ -1,0 +1,50 @@
+/* Utilisez la propriété 'text-align' pour centrer le h1 et le formulaire */
+.container {
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+.h1-formulaire{
+    display: block; /* Afficher le h1 sur une nouvelle ligne */
+    margin-bottom: 20px; /* Espace sous le h1 */
+}
+
+/* Styles pour rendre le formulaire bien affiché */
+.register-form {
+    display: inline-block; /* Permettre aux éléments de se comporter comme des éléments en ligne tout en acceptant les propriétés de bloc */
+    background-color: #f2f2f2; /* Couleur d'arrière-plan du formulaire */
+    padding: 20px; /* Espace à l'intérieur du formulaire */
+    margin-top: 20px; /* Espace au-dessus du formulaire */
+    border-radius: 5px; /* Coins arrondis du formulaire */
+    width: 300px; /* Largeur du formulaire */
+    text-align: left; /* Aligner le contenu à gauche */
+}
+
+.form-label {
+    display: inline-block; /* Afficher les labels sur une nouvelle ligne */
+    margin-bottom: 10px; /* Espace sous chaque label */
+}
+
+.form-input {
+    width: 100%; /* Largeur des champs de saisie et du menu déroulant */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px; /* Espace sous chaque champ de saisie et menu déroulant */
+    border-radius: 5px;  /* Coins arrondis des champs de saisie et du menu déroulant */
+    border: none; /* Pas de bordure autour des champs de saisie et du menu déroulant */
+}
+.form-textarea{
+    width: 100%; /* Largeur  de la zone de texte */
+    border-radius: 5px; /* Coins arrondis de  la zone de texte */
+}
+
+.btn {
+    background-color: #4CAF50; /* Couleur d'arrière-plan du bouton de soumission */
+    color: white; /* Couleur du texte du bouton de soumission */
+    padding: 10px 20px; /* Espace à l'intérieur du bouton de soumission */
+    border: none; /* Pas de bordure autour du bouton de soumission */
+    cursor: pointer; /* Changer le curseur en main lors du survol du bouton de soumission */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Changer la couleur d'arrière-plan du bouton de soumission lors du survol */
+}

@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header,footer{    
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin-right:  5px;
+    font-style: inherit;
+}
+/* code css du sidebar */
+.sidebar{
+    background-color: #eee;
+    width: 25%;
+    padding: 1rem;
+}
+#content{
+    flex: 1;
+    padding: 1rem;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+}

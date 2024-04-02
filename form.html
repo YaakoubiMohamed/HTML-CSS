@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1-formulaire">Formulaire html 5</h1>
+        <!-- Formulaires -->
+        <form class="register-form">
+            <label class="form-label" for="nom">Nom* : </label>
+            <input class="form-input" type="text" id="nom" name="nom" placeholder="Votre nom ..." required>
+            
+            <label class="form-label" for="prenom">Prenom* : </label>
+            <input class="form-input" type="text" id="prenom" name="prenom" required>
+
+            <label class="form-label" for="email">Email* : </label>
+            <input class="form-input" type="email" id="email" name="email" required><span></span>
+
+            <label class="form-label" for="passwrd">Password* :</label>
+            <input class="form-input" type="password" id="passwrd" name="passwrd" required>
+
+            <input type="radio" id="homme" name="sexe" value="Homme">
+            <label class="form-label" for="homme">Homme</label>
+            <input type="radio" id="femme" name="sexe" value="Femme">
+            <label class="form-label" for="femme">Femme</label>
+
+            <select class="form-input"name="ville" id="ville" required>
+                <option value="Paris">Paris</option>
+                <option value="Marseille">Marseille</option>
+                <option value="Lyon">Lyon</option>
+            </select>
+
+            <input type="checkbox" id="cuisine" name="cuisine">
+            <label class="form-label" for="cuisine">Cuisine</label>
+            <input type="checkbox" id="sport" name="sport">
+            <label class="form-label" for="sport">Sport</label>
+
+            <textarea class="form-textarea" name="message" rows="3"  placeholder="Adresse"></textarea>
+            </select>
+            
+
+            <input class="btn" type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
